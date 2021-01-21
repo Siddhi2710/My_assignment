@@ -14,5 +14,4 @@ int main()
 		res=abs(res);
 		cout<<"Substraction of two nos is: "<<res;
 	}
-return 0;
 }

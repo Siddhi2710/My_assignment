@@ -1,9 +1,17 @@
-#include<iostream>
-
+using namespace std;
 int main()
 {
-	int p,q,r;
-	cin>>p>>q;
-	cout<<q;
-	return 0;
+	int a,b,res=0;
+	cin>>a>>b;
+	sum=a-b;
+	if(res>=0)
+	{
+		cout<<"Addition of two nos is:"<<res;
+	}
+	else
+	{
+		res=abs(res);
+		cout<<"Addition of two nos is: "<<res;
+	}
+return 0;
 }

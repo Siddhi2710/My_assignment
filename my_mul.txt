@@ -1,0 +1,11 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	int p,q,mul=0;
+	cin>>p>>q;
+	mul=p*q;
+	cout<<"Multiplication of two nos is: "<<mul;
+	return 0;
+	
+}
